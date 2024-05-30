@@ -8,7 +8,7 @@ import "./MenuItem.css";
 function Menu() {
   return (
     <>
-    <Link className="Link" to={'/Default'}>
+    <Link className="Link" to={'/'}>
     <MenuItem title="Default" collapse={false} icon={LogoHome} />
     </Link>
     <Link className="Link" to={'/Variant2'}>
