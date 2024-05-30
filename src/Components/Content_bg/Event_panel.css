@@ -1,0 +1,39 @@
+/* Основные стили для компонента eventpanel */
+.eventpanel {
+    display: flex;
+    align-items: center;
+    font-family: Inter-Bold;
+    padding-left: 62px;
+    min-height: 39px;
+    gap: 87px;
+  }
+  
+  .NewEvent {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 1);
+  }
+  
+  .bar{
+    display: flex;
+    gap: 41px;
+    background: rgba(239, 240, 242, 1);
+    border-radius: 20px;
+     
+  }
+  
+  .barlist {
+    margin: 0;
+    font-size: 15px;
+    color: rgba(96, 102, 104, 1);
+    cursor: pointer;
+    padding: 10px 12px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .barlist.active {
+    background-color: rgba(68, 128, 243, 1);
+    color: white;
+  }
+
+  

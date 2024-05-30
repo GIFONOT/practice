@@ -1,0 +1,36 @@
+.tableVar2{
+    padding-left: 40px;
+    padding-top: 32px;
+}
+.Date_timeVar2{
+    display: flex;
+    gap: 24px;
+}
+.droptableVar2{
+    display: flex;
+    padding-top: 21px;
+    gap: 106px;
+}
+.block1Var2{
+    display: flex;
+    padding-top: 24px;
+    gap: 24px;
+}
+.block2Var2{
+    display: flex;
+    padding-top: 16px;
+    gap: 24px;
+}
+
+
+.block3Var2{
+    display: flex;
+    gap: 73px;
+    padding-top: 37px;
+    padding-left: 56px;
+}
+.CommentsVar2{
+    display: flex;
+    padding-top: 8px;
+    padding-left: 56px;
+}

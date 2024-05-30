@@ -1,0 +1,218 @@
+.data-time-picker {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  height: 38px;
+  width: 197.45px;
+  border-radius: 5px;
+  background: rgba(239, 240, 242, 1);
+}
+.data-time-picker2 {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+  width: 197.45px;
+  border-radius: 5px;
+  background: rgba(212, 213, 217, 0.32);
+}
+
+.data {
+  margin-right: 10px;
+  font-family: Inter;
+  color: rgba(129, 137, 150, 1);
+  padding-left: 14.86px;
+  font-size: 15px;
+}
+.data2 {
+  margin-right: 10px;
+  font-family: Golos;
+  color: rgba(125, 135, 140, 1);
+  padding-left: 16px;
+  font-size: 16px;
+}
+
+.calendar-icon {
+  position: absolute;
+  right: 13px;
+  width: 18px;
+  height: auto;
+}
+
+.Time {
+  position: relative;
+  width: 197.45px;
+}
+.Time select:hover {
+  cursor: pointer;
+}
+.Time2 {
+  position: relative;
+  width: 197.45px;
+}
+.Time2 select:hover {
+  cursor: pointer;
+}
+
+.Time .label2 {
+  border-radius: 5px;
+  font-family: "Inter";
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  background: rgba(239, 240, 242, 1);
+  font-size: 12px;
+  color: rgba(129, 137, 150, 1);
+  padding-top: 5px;
+  padding-left: 6.37px;
+  height: 33px;
+}
+.time-text {
+  margin: 0px;
+  font-size: 13px;
+  font-family: Inter-bold;
+  color: rgba(89, 89, 89, 1);
+}
+
+.Time2 .label22 {
+  border-radius: 8px;
+  font-family: "Golos";
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  background: rgba(212, 213, 217, 0.32);
+  font-size: 13px;
+  color: rgba(125, 135, 140, 1);
+  height: 38px;
+  padding-left: 16px;
+  padding-top: 2px;
+}
+.time-text2 {
+  margin: 0px;
+  font-size: 16px;
+  font-family: Golos;
+  color: rgba(82, 92, 96, 1);
+}
+
+.Time::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 18px;
+  height: 18px;
+  background-image: url("../../../img/Clock.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.Time2::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 18px;
+  height: 18px;
+  background-image: url("../../../img/Clock.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+
+
+
+
+.Block {
+  position: relative;
+  width: 266.8px;
+}
+.Block .label3 {
+  width: 100%;
+  border-radius: 5px;
+  font-family: "Inter";
+  padding-left: 9.8px;
+  background: rgba(242, 243, 246, 1);
+  font-size: 14px;
+  color: rgba(189, 193, 198, 1);
+  height: 43px;
+  display: flex; 
+  align-items: center;
+}
+
+
+.Block2 {
+  position: relative;
+  width: 266.8px;
+}
+.Block2 .label3_2 {
+  width: 100%;
+  border-radius: 8px;
+  font-family: "Golos";
+  padding-left: 9.8px;
+  background: rgba(242, 243, 246, 1);
+  font-size: 16px;
+  color: rgba(189, 193, 198, 1);
+  height: 43px;
+  display: flex; 
+  align-items: center;
+}
+
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  background: rgba(239, 240, 242, 1);
+  width: 818px;
+  height: 53px;
+  font-family: Inter;
+}
+
+.comments-label {
+  font-size: 14px;
+  color: rgba(89, 89, 89, 1);
+  padding-top: 7px;
+  padding-left: 13px;
+}
+
+.comments-text {
+  margin: 0px;
+  font-size: 14px;
+  color: rgba(89, 89, 89, 1);
+  padding-left: 13px;
+  padding-top: 4px;
+}
+
+
+.comments-containerVar2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  background: rgba(212, 213, 217, 0.32);
+  width: 818px;
+  height: 53px;
+  font-family: Golos;
+  border-radius: 8px;
+}
+
+.comments-labelVar2 {
+  font-size: 12px;
+  color: rgba(125, 135, 140, 1);
+  padding-top: 7px;
+  padding-left: 13px;
+}
+
+.comments-textVar2 {
+  margin: 0px;
+  font-size: 14px;
+  color: rgba(82, 92, 96, 1);
+  padding-left: 13px;
+  padding-top: 4px;
+}

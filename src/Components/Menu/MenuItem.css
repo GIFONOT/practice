@@ -1,0 +1,63 @@
+.menu-item-container {
+  display: flex;
+  flex-direction: column; 
+  width: 296px;
+  margin: 0;
+}
+.Link{
+  text-decoration: none;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  width: 296px;
+  height: 44px;
+  border-radius: 8px;
+  gap: 12px;
+  font-family: Golos;
+  margin-bottom: 2px;
+  color: rgba(82, 92, 96, 1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.menu-item:hover {
+  background: rgba(170, 174, 182, 0.12);
+  color: rgba(29, 38, 42, 1);
+  cursor: pointer;
+}
+
+.menu-icon {
+  font-size: 24px;
+  margin-left: 16px;
+}
+
+
+.menu-title {
+  font-size: 16px;
+  min-width: 208px;
+  gap: 8px;
+}
+.collapse-icon {
+  width: 16px;
+  height: 6px;
+}
+
+.submenu {
+  margin-left: 23px;
+  padding-left: 4px;
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid rgba(170, 174, 182, 0.12);
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0; 
+}
+.submenu.visible{
+    opacity: 1; 
+    max-height: 1000px;
+}
+
+.submenu .menu-item {
+  width: 267px;
+}
