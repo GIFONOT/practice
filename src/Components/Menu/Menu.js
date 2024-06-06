@@ -14,6 +14,9 @@ function Menu() {
     <Link className="Link" to={'/Variant2'}>
     <MenuItem title="Variant2" collapse={false} icon={LogoHome} />
     </Link>
+    <Link className="Link" to={'/Layout2'}>
+    <MenuItem title="Layout2" collapse={false} icon={LogoHome} />
+    </Link>
         
         <MenuItem title="Title" collapse={true} icon={LogoHome}>
           <MenuItem title="Title" collapse={false} icon={LogoHome} />
